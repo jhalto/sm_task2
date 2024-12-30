@@ -9,9 +9,8 @@ import '../../models/Photo.dart';
 
 
 class PhotoController extends GetxController{
-  @override
 
-  var photoList = <Photo>[].obs;
+  var photoList = <Photo>[];
   Future<List<Photo>> getData()async{
     String url = "https://jsonplaceholder.typicode.com/photos";
 
