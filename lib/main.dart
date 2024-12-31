@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sm_task2/news/bindings/photo_bindings.dart';
-import 'package:sm_task2/news/views/photos.dart';
+import 'modules/news/bindings/photo_bindings.dart';
+import 'modules/news/views/photos.dart';
 
 void main() {
   runApp(const MyApp());

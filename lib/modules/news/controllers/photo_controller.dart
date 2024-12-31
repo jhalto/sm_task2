@@ -3,8 +3,10 @@ import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:http/http.dart' as http;
-import '../../helper/db_helper.dart';
-import '../../models/Photo.dart';
+
+import '../../../helper/db_helper.dart';
+import '../../../models/Photo.dart';
+
 
 class PhotoController extends GetxController {
   bool hasCheckedInitialConnection = false;

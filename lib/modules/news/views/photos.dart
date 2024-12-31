@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sm_task2/news/controllers/photo_controller.dart';
+
 import 'package:cached_network_image/cached_network_image.dart';
 
+import '../controllers/photo_controller.dart';
+
 class Photos extends GetView<PhotoController> {
-  Photos({super.key});
+  const Photos({super.key});
 
   @override
   Widget build(BuildContext context) {
