@@ -32,6 +32,7 @@ class _CustomNavBarState extends State<CustomNavBar> {
               onTap: (){
                   setState(() {
                     currentIndex = 0;
+
                   });
               },
             ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sm_task2/pageview.dart';
 import 'modules/news/bindings/photo_bindings.dart';
 import 'modules/news/views/photos.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       darkTheme: ThemeData.dark(),
-      home: Photos(),
+      home: PageviewDemo(),
       initialBinding: PhotoBindings(),
 
 
